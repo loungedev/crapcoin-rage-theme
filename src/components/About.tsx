@@ -10,16 +10,6 @@ const About = () => {
           <span className="text-primary">THE LEGEND</span>
         </h2>
 
-        {/* Contract Address Section */}
-        <Card className="p-6 comic-border bg-card/80 backdrop-blur mb-8">
-          <div className="text-center space-y-2">
-            <p className="font-bold text-primary text-lg">CONTRACT ADDRESS (CA)</p>
-            <p className="text-sm md:text-base font-mono break-all bg-muted p-3 rounded">
-              7GGbU6xrGoDjLiMBZaSqPxUsMMaBwW1QM2uFyhxYpump
-            </p>
-          </div>
-        </Card>
-
         {/* Info Section with Image */}
         <Card className="p-6 comic-border bg-card/80 backdrop-blur mb-8">
           <div className="flex flex-col md:flex-row gap-6 items-center">
