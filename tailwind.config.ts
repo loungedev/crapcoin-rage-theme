@@ -57,6 +57,12 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        meme: {
+          yellow: "hsl(var(--meme-yellow))",
+          green: "hsl(var(--meme-green))",
+          dark: "hsl(var(--meme-dark))",
+          black: "hsl(var(--comic-black))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -80,10 +86,26 @@ export default {
             height: "0",
           },
         },
+        "float": {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-20px)" },
+        },
+        "pulse-glow": {
+          "0%, 100%": { filter: "drop-shadow(0 0 10px hsl(var(--meme-yellow)))" },
+          "50%": { filter: "drop-shadow(0 0 30px hsl(var(--meme-yellow)))" },
+        },
+        "shake": {
+          "0%, 100%": { transform: "translateX(0)" },
+          "25%": { transform: "translateX(-5px) rotate(-2deg)" },
+          "75%": { transform: "translateX(5px) rotate(2deg)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "float": "float 3s ease-in-out infinite",
+        "pulse-glow": "pulse-glow 2s ease-in-out infinite",
+        "shake": "shake 0.5s ease-in-out",
       },
     },
   },
