@@ -7,7 +7,6 @@ const Navbar = () => {
   const links = [
     { name: "About", href: "#about" },
     { name: "Gallery", href: "#gallery" },
-    { name: "Tokenomics", href: "#tokenomics" },
     { name: "Community", href: "#community" },
   ];
 
