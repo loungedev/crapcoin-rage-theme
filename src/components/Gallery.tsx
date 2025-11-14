@@ -1,6 +1,11 @@
 import scene1 from "@/assets/scene-1.png";
 import scene2 from "@/assets/scene-2.png";
 import scene3 from "@/assets/scene-3.png";
+import scene4 from "@/assets/scene-4.png";
+import scene5 from "@/assets/scene-5.png";
+import scene6 from "@/assets/scene-6.png";
+import scene7 from "@/assets/scene-7.png";
+import scene8 from "@/assets/scene-8.png";
 import { Card } from "@/components/ui/card";
 
 const Gallery = () => {
@@ -19,6 +24,31 @@ const Gallery = () => {
       src: scene3,
       alt: "Urban $CRAP scene",
       title: "IN THE STREETS",
+    },
+    {
+      src: scene4,
+      alt: "Oh Crap Face in subway station",
+      title: "SUBWAY SHOCK",
+    },
+    {
+      src: scene5,
+      alt: "Oh Crap vs Troll Face confrontation",
+      title: "THE SHOWDOWN",
+    },
+    {
+      src: scene6,
+      alt: "Oh Crap Face in dark forest",
+      title: "LOST IN THE WOODS",
+    },
+    {
+      src: scene7,
+      alt: "Epic battle between meme faces",
+      title: "MEME WARS",
+    },
+    {
+      src: scene8,
+      alt: "Oh Crap Face victorious",
+      title: "VICTORY",
     },
   ];
 

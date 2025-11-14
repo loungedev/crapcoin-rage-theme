@@ -2,7 +2,6 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Gallery from "@/components/Gallery";
-import Tokenomics from "@/components/Tokenomics";
 import Community from "@/components/Community";
 import Footer from "@/components/Footer";
 
@@ -13,7 +12,6 @@ const Index = () => {
       <Hero />
       <About />
       <Gallery />
-      <Tokenomics />
       <Community />
       <Footer />
     </div>
