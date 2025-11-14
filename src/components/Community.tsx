@@ -3,9 +3,7 @@ import { Card } from "@/components/ui/card";
 
 const Community = () => {
   const socials = [
-    { name: "Twitter", icon: "𝕏", url: "#" },
-    { name: "Telegram", icon: "✈️", url: "#" },
-    { name: "Discord", icon: "💬", url: "#" },
+    { name: "X Community", icon: "𝕏", url: "https://x.com/i/communities/1989237581360611644" },
   ];
 
   return (
