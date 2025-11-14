@@ -1,4 +1,6 @@
 import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import infoImage from "@/assets/info-image.png";
 
 const About = () => {
   return (
@@ -7,6 +9,44 @@ const About = () => {
         <h2 className="text-4xl md:text-6xl font-black text-center mb-12">
           <span className="text-primary">THE LEGEND</span>
         </h2>
+
+        {/* Contract Address Section */}
+        <Card className="p-6 comic-border bg-card/80 backdrop-blur mb-8">
+          <div className="text-center space-y-2">
+            <p className="font-bold text-primary text-lg">CONTRACT ADDRESS (CA)</p>
+            <p className="text-sm md:text-base font-mono break-all bg-muted p-3 rounded">
+              7GGbU6xrGoDjLiMBZaSqPxUsMMaBwW1QM2uFyhxYpump
+            </p>
+          </div>
+        </Card>
+
+        {/* Info Section with Image */}
+        <Card className="p-6 comic-border bg-card/80 backdrop-blur mb-8">
+          <div className="flex flex-col md:flex-row gap-6 items-center">
+            <div className="flex-shrink-0">
+              <img 
+                src={infoImage} 
+                alt="Oh Crap Face Info" 
+                className="w-48 h-auto rounded-lg border-4 border-primary"
+              />
+            </div>
+            <div className="text-center md:text-left">
+              <p className="font-bold text-primary text-xl mb-4">
+                LEARN MORE ABOUT THE MEME
+              </p>
+              <Button asChild variant="default" size="lg" className="w-full md:w-auto">
+                <a 
+                  href="https://rage-comic.fandom.com/wiki/Oh_Crap_Face" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="font-bold"
+                >
+                  READ THE FULL STORY →
+                </a>
+              </Button>
+            </div>
+          </div>
+        </Card>
         
         <Card className="p-8 comic-border bg-card/80 backdrop-blur">
           <div className="space-y-6 text-lg leading-relaxed">
@@ -38,6 +78,10 @@ const About = () => {
             
             <p className="text-center font-black text-2xl text-primary mt-8">
               NOW IT'S A MEMECOIN. OH CRAP! 💩
+            </p>
+            
+            <p className="text-center text-sm text-muted-foreground mt-4">
+              Pure meme energy since 2009. Artist unknown, legend eternal.
             </p>
           </div>
         </Card>

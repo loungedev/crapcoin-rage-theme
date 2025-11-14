@@ -9,10 +9,7 @@ const Footer = () => {
           From rage comics to riches. Since 2009.
         </p>
         <p className="text-xs text-muted-foreground">
-          © 2024 OH CRAP FACE. All memes reserved. Artist unknown but forever appreciated.
-        </p>
-        <p className="text-xs text-muted-foreground">
-          Not financial advice. Just legendary memes.
+          © 2025 OH CRAP FACE. All memes reserved. Artist unknown but forever appreciated.
         </p>
       </div>
     </footer>
