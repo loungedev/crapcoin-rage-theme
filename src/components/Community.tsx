@@ -22,7 +22,7 @@ const Community = () => {
             OH CRAP! 😱
           </p>
           <p className="text-lg mb-8 text-foreground/80">
-            From rage comics to blockchain. From "Ashraf face" to financial freedom.
+            From rage comics to blockchain. From "Ashraf face" to legendary memes.
             This is more than a token. It's a piece of internet history.
           </p>
         </Card>
@@ -42,15 +42,9 @@ const Community = () => {
           ))}
         </div>
         
-        <div className="space-y-4 text-sm text-muted-foreground">
-          <p className="font-bold">
-            ⚠️ DISCLAIMER: This is a meme coin with no intrinsic value or expectation of financial return.
-          </p>
-          <p>
-            $CRAP is for entertainment purposes only. Don't invest what you can't afford to lose.
-            But definitely invest in the memes. Those are priceless.
-          </p>
-        </div>
+        <p className="text-xs text-muted-foreground mt-8">
+          Pure meme energy. Artist of the original Oh Crap Face remains unknown but forever celebrated.
+        </p>
       </div>
     </section>
   );
